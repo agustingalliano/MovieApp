@@ -7,7 +7,7 @@
     <string name="movie_rated_failed_token">Fallo al puntuar, token de ivitado no obtenido. Reintente</string>
     <string name="movie_rated_failed">Fallo al puntuar. Reintente</string>
     <string name="movie_detail_failed">Fallo al cargar detalle. Reintente</string>
-    <string name="movie_list_failed">Fallo al cargar listado Reintente</string>
+    <string name="movie_list_failed">Fallo al cargar listado. Reintente</string>
     <string name="date_released">Fecha de lanzamiento</string>
     <string name="genres">Generos</string>
     <string name="originalLanguage">Lenguaje original</string>
