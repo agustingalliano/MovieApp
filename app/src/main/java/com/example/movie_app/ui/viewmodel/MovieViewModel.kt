@@ -11,6 +11,7 @@ import com.example.movie_app.domain.model.MovieDetail
 import com.example.movie_app.domain.model.Session
 import com.example.movie_app.listeners.MovieRepositoryCallBackListener
 import java.math.BigDecimal
+import java.math.BigInteger
 
 class MovieViewModel (application: Application) : AndroidViewModel(application) {
 
@@ -78,7 +79,7 @@ class MovieViewModel (application: Application) : AndroidViewModel(application) 
 
     fun setScore(score: String) {
         isLoading.postValue(true)
-        this.score = BigDecimal.valueOf(score.toDouble())
+        this.score = if(score.isNotEmpty()) BigDecimal.valueOf(score.toDouble()) else BigDecimal.ZERO
         val intPart = this.score.toBigInteger()
         val decimalPart = this.score.subtract(BigDecimal(intPart))
         val isDecimalPart5 = decimalPart.compareTo(BigDecimal(0.5))==0
