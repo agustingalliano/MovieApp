@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:paddingStart="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="RtlSymmetry">
+    
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageMovie"
+        android:layout_height="95dp"
+        android:layout_width="65dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        app:strokeWidth="1dp"
+        android:src="@drawable/ic_without_image" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:text="@string/app_name"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/primary_text" />
+
+</LinearLayout>

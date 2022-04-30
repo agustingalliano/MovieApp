@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="value_expected_according_to_decimal_part">Se espera que el valor sea un número entero o la parte decimal 0.5</string>
+    <string name="value_expected_according_to_range">Se espera que el valor esté entre 0.5 y 10.0</string>
+    <string name="movie_rated_successfully">Película punteada correctamente</string>
+    <string name="movie_rated_failed_token">Fallo al puntuar, token de ivitado no obtenido. Reintente</string>
+    <string name="movie_rated_failed">Fallo al puntuar. Reintente</string>
+    <string name="movie_detail_failed">Fallo al cargar detalle. Reintente</string>
+    <string name="movie_list_failed">Fallo al cargar listado Reintente</string>
+    <string name="date_released">Fecha de lanzamiento</string>
+    <string name="genres">Generos</string>
+    <string name="originalLanguage">Lenguaje original</string>
+    <string name="popularity">Popularidad</string>
+    <string name="voteAverage">Voto promedio</string>
+    <string name="score_movie">Puntua la película</string>
+    <string name="score">Puntuar</string>
+    <string name="seacrh_failed">Fallo al buscar película. Desplacese en la lista para encontrar más</string>
+</resources>

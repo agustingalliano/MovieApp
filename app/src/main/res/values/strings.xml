@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="value_expected_according_to_decimal_part">The decimal part of value must be .5 or integer number</string>
+    <string name="value_expected_according_to_range">The value is expected to be between 0.5 and 10.0</string>
+    <string name="movie_rated_successfully">Movie rated successfully</string>
+    <string name="movie_rated_failed_token">Failed to rate, guest token not obtained. Try Again</string>
+    <string name="movie_rated_failed">Failed to rate. Try Again</string>
+    <string name="movie_detail_failed">Failed to load detail. Try again</string>
+    <string name="movie_list_failed">Failed to load movies. Try again</string>
+    <string name="date_released">Date released</string>
+    <string name="genres">Genres</string>
+    <string name="originalLanguage">Language original</string>
+    <string name="popularity">Popularity</string>
+    <string name="voteAverage">Vote average</string>
+    <string name="score_movie">Score the movie</string>
+    <string name="score">Score</string>
+    <string name="seacrh_failed">Failed to search movie. Scroll down the list to find more</string>
+</resources>
