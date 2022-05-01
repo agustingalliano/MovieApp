@@ -11,7 +11,6 @@ import com.example.movie_app.domain.model.MovieDetail
 import com.example.movie_app.domain.model.Session
 import com.example.movie_app.listeners.MovieRepositoryCallBackListener
 import java.math.BigDecimal
-import java.math.BigInteger
 
 class MovieViewModel (application: Application) : AndroidViewModel(application) {
 
