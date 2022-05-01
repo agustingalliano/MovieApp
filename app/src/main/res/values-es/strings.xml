@@ -3,7 +3,7 @@
     <string name="app_name">Movie App</string>
     <string name="value_expected_according_to_decimal_part">Se espera que el valor sea un número entero o la parte decimal 0.5</string>
     <string name="value_expected_according_to_range">Se espera que el valor esté entre 0.5 y 10.0</string>
-    <string name="movie_rated_successfully">Película punteada correctamente</string>
+    <string name="movie_rated_successfully">Película puntuada correctamente</string>
     <string name="movie_rated_failed_token">Fallo al puntuar, token de ivitado no obtenido. Reintente</string>
     <string name="movie_rated_failed">Fallo al puntuar. Reintente</string>
     <string name="movie_detail_failed">Fallo al cargar detalle. Reintente</string>
