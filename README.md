@@ -26,9 +26,9 @@
     * Network contiene el paquete response y los archivos MovieApiClient, MovieService y SessionService:
         * Detro de response tenemos MovieResponse que representa la respuesta del listado de películas.
         * MovieApiClient es el archivo encargado de proveernos los métodos necesarios que conectan con la api.
-        * MovieService y SessionService son los que utilizan esos métodos.
+        * MovieService y SessionService son los archivos que utilizan esos métodos.
     * MovieRepository es el archivo encargado de decidir si proveernos los datos desde la api o base de datos.
-* Adapters contiene el archivo MovieAdapter encargado obtener el la información del listado de películas y 
+* Adapters contiene el archivo MovieAdapter encargado de obtener la información del listado de películas y 
   almacenarlo en el recyclerview.
 * Di contiene los archivos NetworkModule y RoomModule:
     * NetworkModule nos provee la instancia de retrofit.
